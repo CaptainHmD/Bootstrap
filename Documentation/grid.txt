@@ -1,0 +1,43 @@
+bootstrap grid use column as a main display 
+and each row have 12 units  to spend
+also you can divide your row or use only on div in it
+------------------------------
+Available breakpoints
+
+X-small            <576px    none
+small              >=576px   sm
+medium             >=768px   md
+large               >=992px   lg     
+Extra large         >=1200px  xl
+Extra extra large   >=1400px  xxl
+-----------------------------------
+####container#####
+if you want to start using bootstrap grid you have to defined a container class *******
+There is a margin in container class .
+ so use .container-fluid, which is width: 100% at all breakpoints
+
+
+.container      	100%	540px	720px	960px	1140px	1320px
+.container-sm	    100%	540px	720px	960px	1140px	1320px
+.container-md	    100%	100%	720px	960px	1140px	1320px
+.container-lg	    100%	100%	100%	960px	1140px	1320px
+.container-xl   	100%	100%	100%	100%	1140px	1320px
+.container-xxl	    100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100%
+
+---------------------
+column inside a row
+you can use  ***col*** class , and bootstrap will do the calculation for the size
+
+if you want to specific a size for the column
+-- by using ***col-number*** , each row has 12 units size to manage it
+If you do not specify a size for the last column, it will be auto
+
+-- must often we use variable with contact
+by using the breakpoint with the size of column
+
+--- col-breakpoint-number  ---
+
+col-md-4
+
+=-=-=-=
