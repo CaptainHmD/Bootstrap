@@ -1,0 +1,23 @@
+-- Alignment: Use flexbox alignment utilities to vertically and horizontally align columns.
+ Vertical
+
+on row  
+class .align-items-start  -> set all divs in the start of row hight
+class .align-items-center -> set all divs in the center of row hight
+class .align-items-end    -> set all divs in the end of row hight
+
+the above for row class
+
+for div column
+align-self-start
+align-self-center
+align-self-end
+
+-- Alignment Horizontal
+on row
+justify-content-start
+justify-content-center
+justify-content-end
+justify-content-around
+justify-content-between
+justify-content-evenly

@@ -1,0 +1,11 @@
+Vertical gutters 
+.gy-* classes can be used to control the vertical gutter widths.
+gy-number until 5
+
+
+Horizontal gutters 
+.gx-* classes can be used to control the horizontal gutter widths.
+gx-number until 5
+
+my-number until 5  : margin for Y axis
+mx-number until 5  : margin for X axis

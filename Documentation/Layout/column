@@ -1,0 +1,18 @@
+column inside a row
+you can use  ***col*** class , and bootstrap will do the calculation for the size
+
+if you want to specific a size for the column
+-- by using ***col-number*** , each row has 12 units size to manage it
+If you do not specify a size for the last column, it will be auto
+
+-- must often we use variable with contact
+by using the breakpoint with the size of column
+
+--- col-breakpoint-number  ---
+
+col-md-4
+
+=-=-=-=
+
+
+-------------------------------------

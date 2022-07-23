@@ -4,11 +4,6 @@ html , body{
     font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
 
 }
-[class*="col"]{
-    background-color: #33b5e5;
-    margin: 0.5rem;
-    border: 2px solid #fff;
-}
 .row{
     justify-content: center;
 }
