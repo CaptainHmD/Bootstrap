@@ -12,3 +12,32 @@ html , body{
 .row{
     justify-content: center;
 }
+.t  .col-3{
+    background: none;
+    border: none;
+}
+
+
+.animi{
+    animation: float 5s ease-in-out infinite;
+}
+.delay1{
+    animation-delay:1s ;
+    }
+    .delay2{
+        animation-delay:2s ;
+        }
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
+

@@ -7,3 +7,14 @@ html , body{
 .row{
     justify-content: center;
 }
+.card-text{
+    color: rgb(209, 205, 199);
+}
+.card-title{
+    color: rgb(209, 205, 199);
+
+}
+.card{
+    background-color: inherit;
+    border: 1px white solid;
+}
